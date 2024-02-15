@@ -1,0 +1,116 @@
+body{
+    background-color: #111010;
+}
+.menu{
+    width: 25%;
+    position: fixed;
+    margin-left: 10px;
+    
+    
+    
+    
+}
+.home{
+    height: 100px;
+    background-color:#888 ;
+    color: white;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.library{
+
+    background-color: #888;
+    color: white;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    min-height: 100vh;
+}
+.float{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    
+}
+.library button{
+    background-color: rgb(224, 221, 221);
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.albums img{
+   width: 70px;
+   height: 50px;
+   align-self: center;
+   padding-right: 20px;
+    
+}
+.albums{
+    margin-top: 20px;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+    display: flex;
+    padding:5px;
+    margin-right: 10px;
+    height: 80px; 
+    align-items: center;
+}
+.albums p{
+    color: rgb(224, 221, 221);
+}
+
+.contain{
+    margin-left: 27%;
+    border-radius: 10px;
+    width: 50%;
+    background-color: #5e0d0d;
+}
+.social{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.album img{
+    width: 90px;
+    height: 70px;
+    padding-right: 10px;
+    
+}
+.welcome-message{
+    padding: 20px;
+    color: white;
+    
+}
+.album{
+    border:1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.playlists h3{
+    color: white;
+}
+.playlists{
+    padding-left: 20px;
+}
+.playlist-one img{
+    width: 100px;
+    height: 70px;
+}
